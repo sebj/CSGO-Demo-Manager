@@ -13,19 +13,32 @@
 		964D98591AD05BC0000C82E0 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964D98581AD05BC0000C82E0 /* AppController.m */; };
 		964D985D1AD05C67000C82E0 /* SJSourceDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 964D985C1AD05C67000C82E0 /* SJSourceDemo.m */; };
 		965B285D1AD401FA00615110 /* ManualSharingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B285C1AD401FA00615110 /* ManualSharingService.m */; };
-		96935BED1BCECE8B00BBA0DC /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96935BEC1BCECE8B00BBA0DC /* Main.m */; settings = {ASSET_TAGS = (); }; };
+		968AE1261BCEDF1D00927383 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 968AE1191BCEDF1D00927383 /* Main.m */; settings = {ASSET_TAGS = (); }; };
+		968AE1271BCEDF1D00927383 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 968AE11C1BCEDF1D00927383 /* ioapi.c */; settings = {ASSET_TAGS = (); }; };
+		968AE1281BCEDF1D00927383 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 968AE11E1BCEDF1D00927383 /* mztools.c */; settings = {ASSET_TAGS = (); }; };
+		968AE1291BCEDF1D00927383 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 968AE1201BCEDF1D00927383 /* unzip.c */; settings = {ASSET_TAGS = (); }; };
+		968AE12A1BCEDF1D00927383 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 968AE1221BCEDF1D00927383 /* zip.c */; settings = {ASSET_TAGS = (); }; };
 		96935BF11BCECEA300BBA0DC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 96935BF01BCECEA300BBA0DC /* libz.tbd */; };
 		96B9CA061AD2C12E00595DE3 /* ud.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96B9CA051AD2C12E00595DE3 /* ud.plist */; };
 		96B9CA091AD2CE3800595DE3 /* PathTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA081AD2CE3800595DE3 /* PathTransformer.m */; };
 		96B9CA141AD3149200595DE3 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA131AD3149200595DE3 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */; };
-		96B9CA241AD333EF00595DE3 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA1A1AD333EF00595DE3 /* ioapi.c */; };
-		96B9CA251AD333EF00595DE3 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA1C1AD333EF00595DE3 /* mztools.c */; };
-		96B9CA261AD333EF00595DE3 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA1E1AD333EF00595DE3 /* unzip.c */; };
-		96B9CA271AD333EF00595DE3 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA201AD333EF00595DE3 /* zip.c */; };
 		96D833771BCEDC7900815755 /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D833761BCEDC7900815755 /* WAYTheDarkSide.m */; settings = {ASSET_TAGS = (); }; };
 		96E91BF81AD140E200076272 /* FilenameValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E91BF71AD140E200076272 /* FilenameValueTransformer.m */; };
 		96E91BFB1AD14FD700076272 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E91BFA1AD14FD700076272 /* TableView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		968AE1151BCEDE5700927383 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		964D98341AD05B8C000C82E0 /* CSGO Demo Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSGO Demo Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,23 +53,23 @@
 		964D985C1AD05C67000C82E0 /* SJSourceDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSourceDemo.m; sourceTree = "<group>"; };
 		965B285B1AD401FA00615110 /* ManualSharingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualSharingService.h; sourceTree = "<group>"; };
 		965B285C1AD401FA00615110 /* ManualSharingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualSharingService.m; sourceTree = "<group>"; };
-		96935BEB1BCECE8B00BBA0DC /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
-		96935BEC1BCECE8B00BBA0DC /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
+		968AE1181BCEDF1D00927383 /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
+		968AE1191BCEDF1D00927383 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
+		968AE11B1BCEDF1D00927383 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		968AE11C1BCEDF1D00927383 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		968AE11D1BCEDF1D00927383 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		968AE11E1BCEDF1D00927383 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		968AE11F1BCEDF1D00927383 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		968AE1201BCEDF1D00927383 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		968AE1211BCEDF1D00927383 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		968AE1221BCEDF1D00927383 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		968AE1231BCEDF1D00927383 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		96935BF01BCECEA300BBA0DC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		96B9CA051AD2C12E00595DE3 /* ud.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ud.plist; sourceTree = "<group>"; };
 		96B9CA071AD2CE3800595DE3 /* PathTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathTransformer.h; sourceTree = "<group>"; };
 		96B9CA081AD2CE3800595DE3 /* PathTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathTransformer.m; sourceTree = "<group>"; };
 		96B9CA121AD3149200595DE3 /* NSSharingServicePicker+ESSSharingServicePickerMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSharingServicePicker+ESSSharingServicePickerMenu.h"; sourceTree = "<group>"; };
 		96B9CA131AD3149200595DE3 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSharingServicePicker+ESSSharingServicePickerMenu.m"; sourceTree = "<group>"; };
-		96B9CA191AD333EF00595DE3 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		96B9CA1A1AD333EF00595DE3 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		96B9CA1B1AD333EF00595DE3 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		96B9CA1C1AD333EF00595DE3 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
-		96B9CA1D1AD333EF00595DE3 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
-		96B9CA1E1AD333EF00595DE3 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
-		96B9CA1F1AD333EF00595DE3 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		96B9CA201AD333EF00595DE3 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
-		96B9CA211AD333EF00595DE3 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		96D833751BCEDC7900815755 /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WAYTheDarkSide.h; path = WAYTheDarkSide/WAYTheDarkSide.h; sourceTree = "<group>"; };
 		96D833761BCEDC7900815755 /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WAYTheDarkSide.m; path = WAYTheDarkSide/WAYTheDarkSide.m; sourceTree = "<group>"; };
 		96E91BF61AD140E200076272 /* FilenameValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilenameValueTransformer.h; sourceTree = "<group>"; };
@@ -96,7 +109,8 @@
 		964D98361AD05B8C000C82E0 /* CS:GO Demo Manager */ = {
 			isa = PBXGroup;
 			children = (
-				96B9CA171AD333EF00595DE3 /* ZipArchive */,
+				968AE1161BCEDF1D00927383 /* ZipArchive */,
+				96935BF01BCECEA300BBA0DC /* libz.tbd */,
 				96B9CA111AD3149200595DE3 /* NSSharingServicePicker+ESSSharingServicePickerMenu */,
 				965B285B1AD401FA00615110 /* ManualSharingService.h */,
 				965B285C1AD401FA00615110 /* ManualSharingService.m */,
@@ -137,6 +151,33 @@
 			path = SJSourceDemo;
 			sourceTree = "<group>";
 		};
+		968AE1161BCEDF1D00927383 /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				968AE1181BCEDF1D00927383 /* Main.h */,
+				968AE1191BCEDF1D00927383 /* Main.m */,
+				968AE11A1BCEDF1D00927383 /* minizip */,
+			);
+			name = ZipArchive;
+			path = ZipArchive/ZipArchive;
+			sourceTree = "<group>";
+		};
+		968AE11A1BCEDF1D00927383 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				968AE11B1BCEDF1D00927383 /* crypt.h */,
+				968AE11C1BCEDF1D00927383 /* ioapi.c */,
+				968AE11D1BCEDF1D00927383 /* ioapi.h */,
+				968AE11E1BCEDF1D00927383 /* mztools.c */,
+				968AE11F1BCEDF1D00927383 /* mztools.h */,
+				968AE1201BCEDF1D00927383 /* unzip.c */,
+				968AE1211BCEDF1D00927383 /* unzip.h */,
+				968AE1221BCEDF1D00927383 /* zip.c */,
+				968AE1231BCEDF1D00927383 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
 		96B9CA0D1AD3049600595DE3 /* WAYTheDarkSide */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,33 +196,6 @@
 			path = "NSSharingServicePicker+ESSSharingServicePickerMenu";
 			sourceTree = "<group>";
 		};
-		96B9CA171AD333EF00595DE3 /* ZipArchive */ = {
-			isa = PBXGroup;
-			children = (
-				96935BF01BCECEA300BBA0DC /* libz.tbd */,
-				96935BEB1BCECE8B00BBA0DC /* Main.h */,
-				96935BEC1BCECE8B00BBA0DC /* Main.m */,
-				96B9CA181AD333EF00595DE3 /* minizip */,
-			);
-			path = ZipArchive;
-			sourceTree = "<group>";
-		};
-		96B9CA181AD333EF00595DE3 /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-				96B9CA191AD333EF00595DE3 /* crypt.h */,
-				96B9CA1A1AD333EF00595DE3 /* ioapi.c */,
-				96B9CA1B1AD333EF00595DE3 /* ioapi.h */,
-				96B9CA1C1AD333EF00595DE3 /* mztools.c */,
-				96B9CA1D1AD333EF00595DE3 /* mztools.h */,
-				96B9CA1E1AD333EF00595DE3 /* unzip.c */,
-				96B9CA1F1AD333EF00595DE3 /* unzip.h */,
-				96B9CA201AD333EF00595DE3 /* zip.c */,
-				96B9CA211AD333EF00595DE3 /* zip.h */,
-			);
-			path = minizip;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +206,7 @@
 				964D98301AD05B8C000C82E0 /* Sources */,
 				964D98311AD05B8C000C82E0 /* Frameworks */,
 				964D98321AD05B8C000C82E0 /* Resources */,
+				968AE1151BCEDE5700927383 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,18 +269,18 @@
 				96E91BF81AD140E200076272 /* FilenameValueTransformer.m in Sources */,
 				964D985D1AD05C67000C82E0 /* SJSourceDemo.m in Sources */,
 				964D983D1AD05B8C000C82E0 /* main.m in Sources */,
+				968AE12A1BCEDF1D00927383 /* zip.c in Sources */,
 				96B9CA141AD3149200595DE3 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m in Sources */,
-				96B9CA241AD333EF00595DE3 /* ioapi.c in Sources */,
-				96935BED1BCECE8B00BBA0DC /* Main.m in Sources */,
-				96B9CA251AD333EF00595DE3 /* mztools.c in Sources */,
 				96D833771BCEDC7900815755 /* WAYTheDarkSide.m in Sources */,
-				96B9CA261AD333EF00595DE3 /* unzip.c in Sources */,
 				96E91BFB1AD14FD700076272 /* TableView.m in Sources */,
+				968AE1271BCEDF1D00927383 /* ioapi.c in Sources */,
 				964D98591AD05BC0000C82E0 /* AppController.m in Sources */,
-				96B9CA271AD333EF00595DE3 /* zip.c in Sources */,
+				968AE1291BCEDF1D00927383 /* unzip.c in Sources */,
 				965B285D1AD401FA00615110 /* ManualSharingService.m in Sources */,
+				968AE1261BCEDF1D00927383 /* Main.m in Sources */,
 				96B9CA091AD2CE3800595DE3 /* PathTransformer.m in Sources */,
 				964D983B1AD05B8C000C82E0 /* AppDelegate.m in Sources */,
+				968AE1281BCEDF1D00927383 /* mztools.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +315,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -342,7 +357,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -363,6 +378,7 @@
 		964D98521AD05B8C000C82E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "CS:GO Demo Manager/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -379,6 +395,7 @@
 		964D98531AD05B8C000C82E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "CS:GO Demo Manager/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";

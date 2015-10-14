@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "38BCFAE14D120AF950A7C6D569FA109071C7D71C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "65E71B0513DBFB09F39CEEF3A8B769CB93E66994" : 0,
+    "38BCFAE14D120AF950A7C6D569FA109071C7D71C" : 0,
+    "513B6A455E4D8DAA552FE80DA1A5E6522213048A" : 0,
+    "0A7C3E0462563EDE48045CD5349ABC4796F61B03" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "79225C4A-A65D-4852-8826-2E90BBBCBFF4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "65E71B0513DBFB09F39CEEF3A8B769CB93E66994" : "CSGO-Demo-Manager\/CS:GO%20Demo%20Manager\/ZipArchive\/",
+    "38BCFAE14D120AF950A7C6D569FA109071C7D71C" : "CSGO-Demo-Manager\/",
+    "513B6A455E4D8DAA552FE80DA1A5E6522213048A" : "CSGO-Demo-Manager\/CS:GO%20Demo%20Manager\/SJSourceDemo\/",
+    "0A7C3E0462563EDE48045CD5349ABC4796F61B03" : "CSGO-Demo-Manager\/CS:GO%20Demo%20Manager\/WAYTheDarkSide\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CS:GO Demo Manager",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CS:GO Demo Manager.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/weAreYeah\/WAYTheDarkSide.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A7C3E0462563EDE48045CD5349ABC4796F61B03"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sebj\/CSGO-Demo-Manager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38BCFAE14D120AF950A7C6D569FA109071C7D71C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sebj\/SJSourceDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "513B6A455E4D8DAA552FE80DA1A5E6522213048A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZipArchive\/ZipArchive.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65E71B0513DBFB09F39CEEF3A8B769CB93E66994"
+    }
+  ]
+}
