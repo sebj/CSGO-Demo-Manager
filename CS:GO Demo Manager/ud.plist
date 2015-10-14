@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>folderPath</key>
+	<string>~/Library/Application Support/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/replays</string>
+	<key>filterChars</key>
+	<string></string>
+	<key>capitalizeNames</key>
+	<string></string>
+</dict>
+</plist>
