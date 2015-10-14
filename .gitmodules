@@ -1,0 +1,6 @@
+[submodule "CS:GO Demo Manager/SJSourceDemo"]
+	path = CS:GO Demo Manager/SJSourceDemo
+	url = https://github.com/sebj/SJSourceDemo.git
+[submodule "CS:GO Demo Manager/WAYTheDarkSide"]
+	path = CS:GO Demo Manager/WAYTheDarkSide
+	url = https://github.com/weAreYeah/WAYTheDarkSide.git

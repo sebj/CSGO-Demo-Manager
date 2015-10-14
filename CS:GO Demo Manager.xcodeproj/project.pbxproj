@@ -17,12 +17,12 @@
 		96935BF11BCECEA300BBA0DC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 96935BF01BCECEA300BBA0DC /* libz.tbd */; };
 		96B9CA061AD2C12E00595DE3 /* ud.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96B9CA051AD2C12E00595DE3 /* ud.plist */; };
 		96B9CA091AD2CE3800595DE3 /* PathTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA081AD2CE3800595DE3 /* PathTransformer.m */; };
-		96B9CA101AD3049600595DE3 /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA0F1AD3049600595DE3 /* WAYTheDarkSide.m */; };
 		96B9CA141AD3149200595DE3 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA131AD3149200595DE3 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */; };
 		96B9CA241AD333EF00595DE3 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA1A1AD333EF00595DE3 /* ioapi.c */; };
 		96B9CA251AD333EF00595DE3 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA1C1AD333EF00595DE3 /* mztools.c */; };
 		96B9CA261AD333EF00595DE3 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA1E1AD333EF00595DE3 /* unzip.c */; };
 		96B9CA271AD333EF00595DE3 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B9CA201AD333EF00595DE3 /* zip.c */; };
+		96D833771BCEDC7900815755 /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D833761BCEDC7900815755 /* WAYTheDarkSide.m */; settings = {ASSET_TAGS = (); }; };
 		96E91BF81AD140E200076272 /* FilenameValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E91BF71AD140E200076272 /* FilenameValueTransformer.m */; };
 		96E91BFB1AD14FD700076272 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E91BFA1AD14FD700076272 /* TableView.m */; };
 /* End PBXBuildFile section */
@@ -46,8 +46,6 @@
 		96B9CA051AD2C12E00595DE3 /* ud.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ud.plist; sourceTree = "<group>"; };
 		96B9CA071AD2CE3800595DE3 /* PathTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathTransformer.h; sourceTree = "<group>"; };
 		96B9CA081AD2CE3800595DE3 /* PathTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathTransformer.m; sourceTree = "<group>"; };
-		96B9CA0E1AD3049600595DE3 /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYTheDarkSide.h; sourceTree = "<group>"; };
-		96B9CA0F1AD3049600595DE3 /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSide.m; sourceTree = "<group>"; };
 		96B9CA121AD3149200595DE3 /* NSSharingServicePicker+ESSSharingServicePickerMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSharingServicePicker+ESSSharingServicePickerMenu.h"; sourceTree = "<group>"; };
 		96B9CA131AD3149200595DE3 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSharingServicePicker+ESSSharingServicePickerMenu.m"; sourceTree = "<group>"; };
 		96B9CA191AD333EF00595DE3 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
@@ -59,6 +57,8 @@
 		96B9CA1F1AD333EF00595DE3 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
 		96B9CA201AD333EF00595DE3 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
 		96B9CA211AD333EF00595DE3 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		96D833751BCEDC7900815755 /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WAYTheDarkSide.h; path = WAYTheDarkSide/WAYTheDarkSide.h; sourceTree = "<group>"; };
+		96D833761BCEDC7900815755 /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WAYTheDarkSide.m; path = WAYTheDarkSide/WAYTheDarkSide.m; sourceTree = "<group>"; };
 		96E91BF61AD140E200076272 /* FilenameValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilenameValueTransformer.h; sourceTree = "<group>"; };
 		96E91BF71AD140E200076272 /* FilenameValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilenameValueTransformer.m; sourceTree = "<group>"; };
 		96E91BF91AD14FD700076272 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
@@ -140,8 +140,8 @@
 		96B9CA0D1AD3049600595DE3 /* WAYTheDarkSide */ = {
 			isa = PBXGroup;
 			children = (
-				96B9CA0E1AD3049600595DE3 /* WAYTheDarkSide.h */,
-				96B9CA0F1AD3049600595DE3 /* WAYTheDarkSide.m */,
+				96D833751BCEDC7900815755 /* WAYTheDarkSide.h */,
+				96D833761BCEDC7900815755 /* WAYTheDarkSide.m */,
 			);
 			path = WAYTheDarkSide;
 			sourceTree = "<group>";
@@ -258,9 +258,9 @@
 				96B9CA241AD333EF00595DE3 /* ioapi.c in Sources */,
 				96935BED1BCECE8B00BBA0DC /* Main.m in Sources */,
 				96B9CA251AD333EF00595DE3 /* mztools.c in Sources */,
+				96D833771BCEDC7900815755 /* WAYTheDarkSide.m in Sources */,
 				96B9CA261AD333EF00595DE3 /* unzip.c in Sources */,
 				96E91BFB1AD14FD700076272 /* TableView.m in Sources */,
-				96B9CA101AD3049600595DE3 /* WAYTheDarkSide.m in Sources */,
 				964D98591AD05BC0000C82E0 /* AppController.m in Sources */,
 				96B9CA271AD333EF00595DE3 /* zip.c in Sources */,
 				965B285D1AD401FA00615110 /* ManualSharingService.m in Sources */,
