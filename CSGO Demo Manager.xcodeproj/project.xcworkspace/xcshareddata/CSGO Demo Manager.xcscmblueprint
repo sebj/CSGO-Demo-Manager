@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "38BCFAE14D120AF950A7C6D569FA109071C7D71C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "38BCFAE14D120AF950A7C6D569FA109071C7D71C" : 0,
+    "0A7C3E0462563EDE48045CD5349ABC4796F61B03" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FADB315C-458E-460E-80F0-F643C5D5E6A5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "38BCFAE14D120AF950A7C6D569FA109071C7D71C" : "CSGO-Demo-Manager\/",
+    "0A7C3E0462563EDE48045CD5349ABC4796F61B03" : "CSGO-Demo-Manager\/CSGO%20Demo%20Manager\/WAYTheDarkSide\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CSGO Demo Manager",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CSGO Demo Manager.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/weAreYeah\/WAYTheDarkSide.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A7C3E0462563EDE48045CD5349ABC4796F61B03"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sebj\/CSGO-Demo-Manager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38BCFAE14D120AF950A7C6D569FA109071C7D71C"
+    }
+  ]
+}

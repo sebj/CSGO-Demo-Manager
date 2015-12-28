@@ -12,7 +12,7 @@
 #import "WAYTheDarkSide.h"
 #import "NSSharingServicePicker+ESSSharingServicePickerMenu.h"
 #import "ManualSharingService.h"
-#import "Main.h"
+#import "SSZipArchive.h"
 
 @implementation AppController
 
@@ -219,7 +219,7 @@
 }
 
 - (NSString*)encodeToPercentEscapeString:(NSString *)string {
-    return (__bridge NSString *)CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef)string, NULL, (CFStringRef)@"!*'();:@&=+$,/?%#[]", kCFStringEncodingUTF8);
+    return [string stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet characterSetWithCharactersInString:@"!*'();:@&=+$,/?%#[]"]];
 }
 
 - (IBAction)showInfo:(id)sender {
@@ -321,7 +321,7 @@
     } else {
         zippedPath = [NSTemporaryDirectory() stringByAppendingFormat:@"%@.zip",demo.filePath.lastPathComponent.stringByDeletingPathExtension];
         
-        zipped = [Main createZipFileAtPath:zippedPath withFilesAtPaths:@[demo.filePath]];
+        zipped = [SSZipArchive createZipFileAtPath:zippedPath withFilesAtPaths:@[demo.filePath]];
     }
     
     if (zipped) {

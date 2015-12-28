@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9646C8511C314ED100A11E21 /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 9646C8501C314ED100A11E21 /* WAYTheDarkSide.m */; };
 		96F152C61C314AF50017FEA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152C51C314AF50017FEA7 /* AppDelegate.m */; };
 		96F152C91C314AF50017FEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152C81C314AF50017FEA7 /* main.m */; };
 		96F152CE1C314AF50017FEA7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F152CC1C314AF50017FEA7 /* MainMenu.xib */; };
@@ -15,8 +16,6 @@
 		96F152DD1C314C0C0017FEA7 /* FilenameValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152DC1C314C0C0017FEA7 /* FilenameValueTransformer.m */; };
 		96F152E01C314C100017FEA7 /* PathTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152DF1C314C100017FEA7 /* PathTransformer.m */; };
 		96F152E21C314C170017FEA7 /* ud.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96F152E11C314C170017FEA7 /* ud.plist */; };
-		96F152F81C314C270017FEA7 /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152E91C314C270017FEA7 /* WAYTheDarkSide.m */; };
-		96F152FB1C314C270017FEA7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F152EE1C314C270017FEA7 /* MainMenu.xib */; };
 		96F153041C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F153031C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */; };
 		96F153071C314C360017FEA7 /* ManualSharingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F153061C314C360017FEA7 /* ManualSharingService.m */; };
 		96F1530B1C314C400017FEA7 /* SJSourceDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F1530A1C314C400017FEA7 /* SJSourceDemo.m */; };
@@ -37,48 +36,28 @@
 		96F153961C314CBD0017FEA7 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F153861C314CBD0017FEA7 /* SSZipArchive.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		96F152FF1C314C270017FEA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96F152F21C314C270017FEA7 /* WAYTheDarkSideDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4D0A87B21A1B701D008890CD;
-			remoteInfo = WAYTheDarkSideDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		9646C84F1C314ED100A11E21 /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYTheDarkSide.h; sourceTree = "<group>"; };
+		9646C8501C314ED100A11E21 /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSide.m; sourceTree = "<group>"; };
 		96F152C11C314AF50017FEA7 /* CSGO Demo Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSGO Demo Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F152C41C314AF50017FEA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96F152C51C314AF50017FEA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		96F152C81C314AF50017FEA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96F152CD1C314AF50017FEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		96F152CF1C314AF50017FEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96F152D51C314BFE0017FEA7 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/AppController.h"; sourceTree = "<group>"; };
-		96F152D61C314BFE0017FEA7 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/AppController.m"; sourceTree = "<group>"; };
-		96F152D81C314C030017FEA7 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableView.h; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/TableView.h"; sourceTree = "<group>"; };
-		96F152D91C314C030017FEA7 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableView.m; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/TableView.m"; sourceTree = "<group>"; };
-		96F152DB1C314C0C0017FEA7 /* FilenameValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilenameValueTransformer.h; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/FilenameValueTransformer.h"; sourceTree = "<group>"; };
-		96F152DC1C314C0C0017FEA7 /* FilenameValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilenameValueTransformer.m; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/FilenameValueTransformer.m"; sourceTree = "<group>"; };
-		96F152DE1C314C100017FEA7 /* PathTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PathTransformer.h; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/PathTransformer.h"; sourceTree = "<group>"; };
-		96F152DF1C314C100017FEA7 /* PathTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PathTransformer.m; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/PathTransformer.m"; sourceTree = "<group>"; };
-		96F152E11C314C170017FEA7 /* ud.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ud.plist; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/ud.plist"; sourceTree = "<group>"; };
-		96F152E41C314C270017FEA7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		96F152E51C314C270017FEA7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		96F152E61C314C270017FEA7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		96F152E81C314C270017FEA7 /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYTheDarkSide.h; sourceTree = "<group>"; };
-		96F152E91C314C270017FEA7 /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSide.m; sourceTree = "<group>"; };
-		96F152EA1C314C270017FEA7 /* WAYTheDarkSide Example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WAYTheDarkSide Example.png"; sourceTree = "<group>"; };
-		96F152EC1C314C270017FEA7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		96F152ED1C314C270017FEA7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		96F152EF1C314C270017FEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		96F152F01C314C270017FEA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96F152F11C314C270017FEA7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96F152F21C314C270017FEA7 /* WAYTheDarkSideDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WAYTheDarkSideDemo.xcodeproj; sourceTree = "<group>"; };
+		96F152D51C314BFE0017FEA7 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		96F152D61C314BFE0017FEA7 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		96F152D81C314C030017FEA7 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		96F152D91C314C030017FEA7 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
+		96F152DB1C314C0C0017FEA7 /* FilenameValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilenameValueTransformer.h; sourceTree = "<group>"; };
+		96F152DC1C314C0C0017FEA7 /* FilenameValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilenameValueTransformer.m; sourceTree = "<group>"; };
+		96F152DE1C314C100017FEA7 /* PathTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathTransformer.h; sourceTree = "<group>"; };
+		96F152DF1C314C100017FEA7 /* PathTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathTransformer.m; sourceTree = "<group>"; };
+		96F152E11C314C170017FEA7 /* ud.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ud.plist; sourceTree = "<group>"; };
 		96F153021C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSharingServicePicker+ESSSharingServicePickerMenu.h"; sourceTree = "<group>"; };
 		96F153031C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSharingServicePicker+ESSSharingServicePickerMenu.m"; sourceTree = "<group>"; };
-		96F153051C314C360017FEA7 /* ManualSharingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManualSharingService.h; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/ManualSharingService.h"; sourceTree = "<group>"; };
-		96F153061C314C360017FEA7 /* ManualSharingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManualSharingService.m; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/ManualSharingService.m"; sourceTree = "<group>"; };
+		96F153051C314C360017FEA7 /* ManualSharingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualSharingService.h; sourceTree = "<group>"; };
+		96F153061C314C360017FEA7 /* ManualSharingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualSharingService.m; sourceTree = "<group>"; };
 		96F153091C314C400017FEA7 /* SJSourceDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSourceDemo.h; sourceTree = "<group>"; };
 		96F1530A1C314C400017FEA7 /* SJSourceDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSourceDemo.m; sourceTree = "<group>"; };
 		96F153411C314C560017FEA7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -131,6 +110,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9646C84E1C314ED100A11E21 /* WAYTheDarkSide */ = {
+			isa = PBXGroup;
+			children = (
+				9646C84F1C314ED100A11E21 /* WAYTheDarkSide.h */,
+				9646C8501C314ED100A11E21 /* WAYTheDarkSide.m */,
+			);
+			name = WAYTheDarkSide;
+			path = WAYTheDarkSide/WAYTheDarkSide;
+			sourceTree = "<group>";
+		};
 		96F152B81C314AF50017FEA7 = {
 			isa = PBXGroup;
 			children = (
@@ -152,10 +141,10 @@
 			children = (
 				96F153621C314CBD0017FEA7 /* SSZipArchive */,
 				96F153411C314C560017FEA7 /* libz.tbd */,
-				96F152E31C314C270017FEA7 /* WAYTheDarkSide */,
 				96F153011C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu */,
 				96F153051C314C360017FEA7 /* ManualSharingService.h */,
 				96F153061C314C360017FEA7 /* ManualSharingService.m */,
+				9646C84E1C314ED100A11E21 /* WAYTheDarkSide */,
 				96F153081C314C400017FEA7 /* SJSourceDemo */,
 				96F152C41C314AF50017FEA7 /* AppDelegate.h */,
 				96F152C51C314AF50017FEA7 /* AppDelegate.m */,
@@ -183,58 +172,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		96F152E31C314C270017FEA7 /* WAYTheDarkSide */ = {
-			isa = PBXGroup;
-			children = (
-				96F152E41C314C270017FEA7 /* .gitignore */,
-				96F152E51C314C270017FEA7 /* LICENSE */,
-				96F152E61C314C270017FEA7 /* README.md */,
-				96F152E71C314C270017FEA7 /* WAYTheDarkSide */,
-				96F152EA1C314C270017FEA7 /* WAYTheDarkSide Example.png */,
-				96F152EB1C314C270017FEA7 /* WAYTheDarkSideDemo */,
-				96F152F21C314C270017FEA7 /* WAYTheDarkSideDemo.xcodeproj */,
-			);
-			name = WAYTheDarkSide;
-			path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/WAYTheDarkSide";
-			sourceTree = "<group>";
-		};
-		96F152E71C314C270017FEA7 /* WAYTheDarkSide */ = {
-			isa = PBXGroup;
-			children = (
-				96F152E81C314C270017FEA7 /* WAYTheDarkSide.h */,
-				96F152E91C314C270017FEA7 /* WAYTheDarkSide.m */,
-			);
-			path = WAYTheDarkSide;
-			sourceTree = "<group>";
-		};
-		96F152EB1C314C270017FEA7 /* WAYTheDarkSideDemo */ = {
-			isa = PBXGroup;
-			children = (
-				96F152EC1C314C270017FEA7 /* AppDelegate.h */,
-				96F152ED1C314C270017FEA7 /* AppDelegate.m */,
-				96F152EE1C314C270017FEA7 /* MainMenu.xib */,
-				96F152F01C314C270017FEA7 /* Info.plist */,
-				96F152F11C314C270017FEA7 /* main.m */,
-			);
-			path = WAYTheDarkSideDemo;
-			sourceTree = "<group>";
-		};
-		96F152F31C314C270017FEA7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				96F153001C314C270017FEA7 /* WAYTheDarkSideDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		96F153011C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu */ = {
 			isa = PBXGroup;
 			children = (
 				96F153021C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.h */,
 				96F153031C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */,
 			);
-			name = "NSSharingServicePicker+ESSSharingServicePickerMenu";
-			path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/NSSharingServicePicker+ESSSharingServicePickerMenu";
+			path = "NSSharingServicePicker+ESSSharingServicePickerMenu";
 			sourceTree = "<group>";
 		};
 		96F153081C314C400017FEA7 /* SJSourceDemo */ = {
@@ -243,8 +187,7 @@
 				96F153091C314C400017FEA7 /* SJSourceDemo.h */,
 				96F1530A1C314C400017FEA7 /* SJSourceDemo.m */,
 			);
-			name = SJSourceDemo;
-			path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/SJSourceDemo";
+			path = SJSourceDemo;
 			sourceTree = "<group>";
 		};
 		96F153621C314CBD0017FEA7 /* SSZipArchive */ = {
@@ -259,7 +202,7 @@
 				96F153871C314CBD0017FEA7 /* ZipArchive.h */,
 			);
 			name = SSZipArchive;
-			path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/ZipArchive/SSZipArchive";
+			path = ZipArchive/SSZipArchive;
 			sourceTree = "<group>";
 		};
 		96F153631C314CBD0017FEA7 /* aes */ = {
@@ -351,28 +294,12 @@
 			mainGroup = 96F152B81C314AF50017FEA7;
 			productRefGroup = 96F152C21C314AF50017FEA7 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 96F152F31C314C270017FEA7 /* Products */;
-					ProjectRef = 96F152F21C314C270017FEA7 /* WAYTheDarkSideDemo.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				96F152C01C314AF50017FEA7 /* CSGO Demo Manager */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		96F153001C314C270017FEA7 /* WAYTheDarkSideDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = WAYTheDarkSideDemo.app;
-			remoteRef = 96F152FF1C314C270017FEA7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		96F152BF1C314AF50017FEA7 /* Resources */ = {
@@ -381,7 +308,6 @@
 			files = (
 				96F152CE1C314AF50017FEA7 /* MainMenu.xib in Resources */,
 				96F152E21C314C170017FEA7 /* ud.plist in Resources */,
-				96F152FB1C314C270017FEA7 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,12 +322,12 @@
 				96F153931C314CBD0017FEA7 /* mztools.c in Sources */,
 				96F1538B1C314CBD0017FEA7 /* entropy.c in Sources */,
 				96F152DD1C314C0C0017FEA7 /* FilenameValueTransformer.m in Sources */,
+				9646C8511C314ED100A11E21 /* WAYTheDarkSide.m in Sources */,
 				96F152C91C314AF50017FEA7 /* main.m in Sources */,
 				96F153901C314CBD0017FEA7 /* sha1.c in Sources */,
 				96F1530B1C314C400017FEA7 /* SJSourceDemo.m in Sources */,
 				96F152DA1C314C030017FEA7 /* TableView.m in Sources */,
 				96F153961C314CBD0017FEA7 /* SSZipArchive.m in Sources */,
-				96F152F81C314C270017FEA7 /* WAYTheDarkSide.m in Sources */,
 				96F153921C314CBD0017FEA7 /* ioapi.c in Sources */,
 				96F1538E1C314CBD0017FEA7 /* prng.c in Sources */,
 				96F1538A1C314CBD0017FEA7 /* aestab.c in Sources */,
@@ -426,14 +352,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				96F152CD1C314AF50017FEA7 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		96F152EE1C314C270017FEA7 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96F152EF1C314C270017FEA7 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -561,6 +479,7 @@
 				96F152D41C314AF50017FEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
