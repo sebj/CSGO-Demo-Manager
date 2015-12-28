@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CS:GO Demo Manager.xcodeproj">
+      location = "self:CSGO Demo Manager.xcodeproj">
    </FileRef>
 </Workspace>

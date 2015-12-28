@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96F152C61C314AF50017FEA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152C51C314AF50017FEA7 /* AppDelegate.m */; };
+		96F152C91C314AF50017FEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152C81C314AF50017FEA7 /* main.m */; };
+		96F152CE1C314AF50017FEA7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F152CC1C314AF50017FEA7 /* MainMenu.xib */; };
+		96F152D71C314BFE0017FEA7 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152D61C314BFE0017FEA7 /* AppController.m */; };
+		96F152DA1C314C030017FEA7 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152D91C314C030017FEA7 /* TableView.m */; };
+		96F152DD1C314C0C0017FEA7 /* FilenameValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152DC1C314C0C0017FEA7 /* FilenameValueTransformer.m */; };
+		96F152E01C314C100017FEA7 /* PathTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152DF1C314C100017FEA7 /* PathTransformer.m */; };
+		96F152E21C314C170017FEA7 /* ud.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96F152E11C314C170017FEA7 /* ud.plist */; };
+		96F152F81C314C270017FEA7 /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F152E91C314C270017FEA7 /* WAYTheDarkSide.m */; };
+		96F152FB1C314C270017FEA7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F152EE1C314C270017FEA7 /* MainMenu.xib */; };
+		96F153041C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F153031C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */; };
+		96F153071C314C360017FEA7 /* ManualSharingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F153061C314C360017FEA7 /* ManualSharingService.m */; };
+		96F1530B1C314C400017FEA7 /* SJSourceDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F1530A1C314C400017FEA7 /* SJSourceDemo.m */; };
+		96F153421C314C560017FEA7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F153411C314C560017FEA7 /* libz.tbd */; };
+		96F153881C314CBD0017FEA7 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F153661C314CBD0017FEA7 /* aescrypt.c */; };
+		96F153891C314CBD0017FEA7 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F153671C314CBD0017FEA7 /* aeskey.c */; };
+		96F1538A1C314CBD0017FEA7 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F153691C314CBD0017FEA7 /* aestab.c */; };
+		96F1538B1C314CBD0017FEA7 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F1536D1C314CBD0017FEA7 /* entropy.c */; };
+		96F1538C1C314CBD0017FEA7 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F1536F1C314CBD0017FEA7 /* fileenc.c */; };
+		96F1538D1C314CBD0017FEA7 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F153711C314CBD0017FEA7 /* hmac.c */; };
+		96F1538E1C314CBD0017FEA7 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F153731C314CBD0017FEA7 /* prng.c */; };
+		96F1538F1C314CBD0017FEA7 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F153751C314CBD0017FEA7 /* pwd2key.c */; };
+		96F153901C314CBD0017FEA7 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F153771C314CBD0017FEA7 /* sha1.c */; };
+		96F153921C314CBD0017FEA7 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F1537D1C314CBD0017FEA7 /* ioapi.c */; };
+		96F153931C314CBD0017FEA7 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F1537F1C314CBD0017FEA7 /* mztools.c */; };
+		96F153941C314CBD0017FEA7 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F153811C314CBD0017FEA7 /* unzip.c */; };
+		96F153951C314CBD0017FEA7 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F153831C314CBD0017FEA7 /* zip.c */; };
+		96F153961C314CBD0017FEA7 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F153861C314CBD0017FEA7 /* SSZipArchive.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96F152FF1C314C270017FEA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F152F21C314C270017FEA7 /* WAYTheDarkSideDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D0A87B21A1B701D008890CD;
+			remoteInfo = WAYTheDarkSideDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96F152C11C314AF50017FEA7 /* CSGO Demo Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSGO Demo Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F152C41C314AF50017FEA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96F152C51C314AF50017FEA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96F152C81C314AF50017FEA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96F152CD1C314AF50017FEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96F152CF1C314AF50017FEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F152D51C314BFE0017FEA7 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/AppController.h"; sourceTree = "<group>"; };
+		96F152D61C314BFE0017FEA7 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/AppController.m"; sourceTree = "<group>"; };
+		96F152D81C314C030017FEA7 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableView.h; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/TableView.h"; sourceTree = "<group>"; };
+		96F152D91C314C030017FEA7 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableView.m; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/TableView.m"; sourceTree = "<group>"; };
+		96F152DB1C314C0C0017FEA7 /* FilenameValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilenameValueTransformer.h; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/FilenameValueTransformer.h"; sourceTree = "<group>"; };
+		96F152DC1C314C0C0017FEA7 /* FilenameValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilenameValueTransformer.m; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/FilenameValueTransformer.m"; sourceTree = "<group>"; };
+		96F152DE1C314C100017FEA7 /* PathTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PathTransformer.h; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/PathTransformer.h"; sourceTree = "<group>"; };
+		96F152DF1C314C100017FEA7 /* PathTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PathTransformer.m; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/PathTransformer.m"; sourceTree = "<group>"; };
+		96F152E11C314C170017FEA7 /* ud.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ud.plist; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/ud.plist"; sourceTree = "<group>"; };
+		96F152E41C314C270017FEA7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		96F152E51C314C270017FEA7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		96F152E61C314C270017FEA7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		96F152E81C314C270017FEA7 /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYTheDarkSide.h; sourceTree = "<group>"; };
+		96F152E91C314C270017FEA7 /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSide.m; sourceTree = "<group>"; };
+		96F152EA1C314C270017FEA7 /* WAYTheDarkSide Example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WAYTheDarkSide Example.png"; sourceTree = "<group>"; };
+		96F152EC1C314C270017FEA7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96F152ED1C314C270017FEA7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96F152EF1C314C270017FEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96F152F01C314C270017FEA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F152F11C314C270017FEA7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96F152F21C314C270017FEA7 /* WAYTheDarkSideDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WAYTheDarkSideDemo.xcodeproj; sourceTree = "<group>"; };
+		96F153021C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSharingServicePicker+ESSSharingServicePickerMenu.h"; sourceTree = "<group>"; };
+		96F153031C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSharingServicePicker+ESSSharingServicePickerMenu.m"; sourceTree = "<group>"; };
+		96F153051C314C360017FEA7 /* ManualSharingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManualSharingService.h; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/ManualSharingService.h"; sourceTree = "<group>"; };
+		96F153061C314C360017FEA7 /* ManualSharingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManualSharingService.m; path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/ManualSharingService.m"; sourceTree = "<group>"; };
+		96F153091C314C400017FEA7 /* SJSourceDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSourceDemo.h; sourceTree = "<group>"; };
+		96F1530A1C314C400017FEA7 /* SJSourceDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSourceDemo.m; sourceTree = "<group>"; };
+		96F153411C314C560017FEA7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		96F153641C314CBD0017FEA7 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		96F153651C314CBD0017FEA7 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		96F153661C314CBD0017FEA7 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		96F153671C314CBD0017FEA7 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		96F153681C314CBD0017FEA7 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		96F153691C314CBD0017FEA7 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		96F1536A1C314CBD0017FEA7 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		96F1536B1C314CBD0017FEA7 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		96F1536C1C314CBD0017FEA7 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		96F1536D1C314CBD0017FEA7 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		96F1536E1C314CBD0017FEA7 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		96F1536F1C314CBD0017FEA7 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		96F153701C314CBD0017FEA7 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		96F153711C314CBD0017FEA7 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		96F153721C314CBD0017FEA7 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		96F153731C314CBD0017FEA7 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		96F153741C314CBD0017FEA7 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		96F153751C314CBD0017FEA7 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		96F153761C314CBD0017FEA7 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		96F153771C314CBD0017FEA7 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		96F153781C314CBD0017FEA7 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		96F153791C314CBD0017FEA7 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		96F1537A1C314CBD0017FEA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F1537C1C314CBD0017FEA7 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		96F1537D1C314CBD0017FEA7 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		96F1537E1C314CBD0017FEA7 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		96F1537F1C314CBD0017FEA7 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		96F153801C314CBD0017FEA7 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		96F153811C314CBD0017FEA7 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		96F153821C314CBD0017FEA7 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		96F153831C314CBD0017FEA7 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		96F153841C314CBD0017FEA7 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		96F153851C314CBD0017FEA7 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		96F153861C314CBD0017FEA7 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		96F153871C314CBD0017FEA7 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F152BE1C314AF50017FEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F153421C314C560017FEA7 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96F152B81C314AF50017FEA7 = {
+			isa = PBXGroup;
+			children = (
+				96F152C31C314AF50017FEA7 /* CSGO Demo Manager */,
+				96F152C21C314AF50017FEA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96F152C21C314AF50017FEA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F152C11C314AF50017FEA7 /* CSGO Demo Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F152C31C314AF50017FEA7 /* CSGO Demo Manager */ = {
+			isa = PBXGroup;
+			children = (
+				96F153621C314CBD0017FEA7 /* SSZipArchive */,
+				96F153411C314C560017FEA7 /* libz.tbd */,
+				96F152E31C314C270017FEA7 /* WAYTheDarkSide */,
+				96F153011C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu */,
+				96F153051C314C360017FEA7 /* ManualSharingService.h */,
+				96F153061C314C360017FEA7 /* ManualSharingService.m */,
+				96F153081C314C400017FEA7 /* SJSourceDemo */,
+				96F152C41C314AF50017FEA7 /* AppDelegate.h */,
+				96F152C51C314AF50017FEA7 /* AppDelegate.m */,
+				96F152D51C314BFE0017FEA7 /* AppController.h */,
+				96F152D61C314BFE0017FEA7 /* AppController.m */,
+				96F152D81C314C030017FEA7 /* TableView.h */,
+				96F152D91C314C030017FEA7 /* TableView.m */,
+				96F152CC1C314AF50017FEA7 /* MainMenu.xib */,
+				96F152DB1C314C0C0017FEA7 /* FilenameValueTransformer.h */,
+				96F152DC1C314C0C0017FEA7 /* FilenameValueTransformer.m */,
+				96F152DE1C314C100017FEA7 /* PathTransformer.h */,
+				96F152DF1C314C100017FEA7 /* PathTransformer.m */,
+				96F152E11C314C170017FEA7 /* ud.plist */,
+				96F152C71C314AF50017FEA7 /* Supporting Files */,
+			);
+			path = "CSGO Demo Manager";
+			sourceTree = "<group>";
+		};
+		96F152C71C314AF50017FEA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F152CF1C314AF50017FEA7 /* Info.plist */,
+				96F152C81C314AF50017FEA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96F152E31C314C270017FEA7 /* WAYTheDarkSide */ = {
+			isa = PBXGroup;
+			children = (
+				96F152E41C314C270017FEA7 /* .gitignore */,
+				96F152E51C314C270017FEA7 /* LICENSE */,
+				96F152E61C314C270017FEA7 /* README.md */,
+				96F152E71C314C270017FEA7 /* WAYTheDarkSide */,
+				96F152EA1C314C270017FEA7 /* WAYTheDarkSide Example.png */,
+				96F152EB1C314C270017FEA7 /* WAYTheDarkSideDemo */,
+				96F152F21C314C270017FEA7 /* WAYTheDarkSideDemo.xcodeproj */,
+			);
+			name = WAYTheDarkSide;
+			path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/WAYTheDarkSide";
+			sourceTree = "<group>";
+		};
+		96F152E71C314C270017FEA7 /* WAYTheDarkSide */ = {
+			isa = PBXGroup;
+			children = (
+				96F152E81C314C270017FEA7 /* WAYTheDarkSide.h */,
+				96F152E91C314C270017FEA7 /* WAYTheDarkSide.m */,
+			);
+			path = WAYTheDarkSide;
+			sourceTree = "<group>";
+		};
+		96F152EB1C314C270017FEA7 /* WAYTheDarkSideDemo */ = {
+			isa = PBXGroup;
+			children = (
+				96F152EC1C314C270017FEA7 /* AppDelegate.h */,
+				96F152ED1C314C270017FEA7 /* AppDelegate.m */,
+				96F152EE1C314C270017FEA7 /* MainMenu.xib */,
+				96F152F01C314C270017FEA7 /* Info.plist */,
+				96F152F11C314C270017FEA7 /* main.m */,
+			);
+			path = WAYTheDarkSideDemo;
+			sourceTree = "<group>";
+		};
+		96F152F31C314C270017FEA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F153001C314C270017FEA7 /* WAYTheDarkSideDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F153011C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				96F153021C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.h */,
+				96F153031C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */,
+			);
+			name = "NSSharingServicePicker+ESSSharingServicePickerMenu";
+			path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/NSSharingServicePicker+ESSSharingServicePickerMenu";
+			sourceTree = "<group>";
+		};
+		96F153081C314C400017FEA7 /* SJSourceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				96F153091C314C400017FEA7 /* SJSourceDemo.h */,
+				96F1530A1C314C400017FEA7 /* SJSourceDemo.m */,
+			);
+			name = SJSourceDemo;
+			path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/SJSourceDemo";
+			sourceTree = "<group>";
+		};
+		96F153621C314CBD0017FEA7 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				96F153631C314CBD0017FEA7 /* aes */,
+				96F153791C314CBD0017FEA7 /* Common.h */,
+				96F1537A1C314CBD0017FEA7 /* Info.plist */,
+				96F1537B1C314CBD0017FEA7 /* minizip */,
+				96F153851C314CBD0017FEA7 /* SSZipArchive.h */,
+				96F153861C314CBD0017FEA7 /* SSZipArchive.m */,
+				96F153871C314CBD0017FEA7 /* ZipArchive.h */,
+			);
+			name = SSZipArchive;
+			path = "../../../../Git/CSGO-Demo-Manager/CSGO Demo Manager/ZipArchive/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		96F153631C314CBD0017FEA7 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				96F153641C314CBD0017FEA7 /* aes.h */,
+				96F153651C314CBD0017FEA7 /* aes_via_ace.h */,
+				96F153661C314CBD0017FEA7 /* aescrypt.c */,
+				96F153671C314CBD0017FEA7 /* aeskey.c */,
+				96F153681C314CBD0017FEA7 /* aesopt.h */,
+				96F153691C314CBD0017FEA7 /* aestab.c */,
+				96F1536A1C314CBD0017FEA7 /* aestab.h */,
+				96F1536B1C314CBD0017FEA7 /* brg_endian.h */,
+				96F1536C1C314CBD0017FEA7 /* brg_types.h */,
+				96F1536D1C314CBD0017FEA7 /* entropy.c */,
+				96F1536E1C314CBD0017FEA7 /* entropy.h */,
+				96F1536F1C314CBD0017FEA7 /* fileenc.c */,
+				96F153701C314CBD0017FEA7 /* fileenc.h */,
+				96F153711C314CBD0017FEA7 /* hmac.c */,
+				96F153721C314CBD0017FEA7 /* hmac.h */,
+				96F153731C314CBD0017FEA7 /* prng.c */,
+				96F153741C314CBD0017FEA7 /* prng.h */,
+				96F153751C314CBD0017FEA7 /* pwd2key.c */,
+				96F153761C314CBD0017FEA7 /* pwd2key.h */,
+				96F153771C314CBD0017FEA7 /* sha1.c */,
+				96F153781C314CBD0017FEA7 /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		96F1537B1C314CBD0017FEA7 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				96F1537C1C314CBD0017FEA7 /* crypt.h */,
+				96F1537D1C314CBD0017FEA7 /* ioapi.c */,
+				96F1537E1C314CBD0017FEA7 /* ioapi.h */,
+				96F1537F1C314CBD0017FEA7 /* mztools.c */,
+				96F153801C314CBD0017FEA7 /* mztools.h */,
+				96F153811C314CBD0017FEA7 /* unzip.c */,
+				96F153821C314CBD0017FEA7 /* unzip.h */,
+				96F153831C314CBD0017FEA7 /* zip.c */,
+				96F153841C314CBD0017FEA7 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F152C01C314AF50017FEA7 /* CSGO Demo Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F152D21C314AF50017FEA7 /* Build configuration list for PBXNativeTarget "CSGO Demo Manager" */;
+			buildPhases = (
+				96F152BD1C314AF50017FEA7 /* Sources */,
+				96F152BE1C314AF50017FEA7 /* Frameworks */,
+				96F152BF1C314AF50017FEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSGO Demo Manager";
+			productName = "CSGO Demo Manager";
+			productReference = 96F152C11C314AF50017FEA7 /* CSGO Demo Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96F152B91C314AF50017FEA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Sebastian Jachec";
+				TargetAttributes = {
+					96F152C01C314AF50017FEA7 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 96F152BC1C314AF50017FEA7 /* Build configuration list for PBXProject "CSGO Demo Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96F152B81C314AF50017FEA7;
+			productRefGroup = 96F152C21C314AF50017FEA7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 96F152F31C314C270017FEA7 /* Products */;
+					ProjectRef = 96F152F21C314C270017FEA7 /* WAYTheDarkSideDemo.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				96F152C01C314AF50017FEA7 /* CSGO Demo Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		96F153001C314C270017FEA7 /* WAYTheDarkSideDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = WAYTheDarkSideDemo.app;
+			remoteRef = 96F152FF1C314C270017FEA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96F152BF1C314AF50017FEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F152CE1C314AF50017FEA7 /* MainMenu.xib in Resources */,
+				96F152E21C314C170017FEA7 /* ud.plist in Resources */,
+				96F152FB1C314C270017FEA7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96F152BD1C314AF50017FEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F153041C314C2D0017FEA7 /* NSSharingServicePicker+ESSSharingServicePickerMenu.m in Sources */,
+				96F153931C314CBD0017FEA7 /* mztools.c in Sources */,
+				96F1538B1C314CBD0017FEA7 /* entropy.c in Sources */,
+				96F152DD1C314C0C0017FEA7 /* FilenameValueTransformer.m in Sources */,
+				96F152C91C314AF50017FEA7 /* main.m in Sources */,
+				96F153901C314CBD0017FEA7 /* sha1.c in Sources */,
+				96F1530B1C314C400017FEA7 /* SJSourceDemo.m in Sources */,
+				96F152DA1C314C030017FEA7 /* TableView.m in Sources */,
+				96F153961C314CBD0017FEA7 /* SSZipArchive.m in Sources */,
+				96F152F81C314C270017FEA7 /* WAYTheDarkSide.m in Sources */,
+				96F153921C314CBD0017FEA7 /* ioapi.c in Sources */,
+				96F1538E1C314CBD0017FEA7 /* prng.c in Sources */,
+				96F1538A1C314CBD0017FEA7 /* aestab.c in Sources */,
+				96F153891C314CBD0017FEA7 /* aeskey.c in Sources */,
+				96F153941C314CBD0017FEA7 /* unzip.c in Sources */,
+				96F1538D1C314CBD0017FEA7 /* hmac.c in Sources */,
+				96F1538C1C314CBD0017FEA7 /* fileenc.c in Sources */,
+				96F153071C314C360017FEA7 /* ManualSharingService.m in Sources */,
+				96F152D71C314BFE0017FEA7 /* AppController.m in Sources */,
+				96F152E01C314C100017FEA7 /* PathTransformer.m in Sources */,
+				96F153881C314CBD0017FEA7 /* aescrypt.c in Sources */,
+				96F153951C314CBD0017FEA7 /* zip.c in Sources */,
+				96F1538F1C314CBD0017FEA7 /* pwd2key.c in Sources */,
+				96F152C61C314AF50017FEA7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96F152CC1C314AF50017FEA7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F152CD1C314AF50017FEA7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		96F152EE1C314C270017FEA7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F152EF1C314C270017FEA7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96F152D01C314AF50017FEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96F152D11C314AF50017FEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96F152D31C314AF50017FEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CSGO Demo Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sebj.CSGO-Demo-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96F152D41C314AF50017FEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CSGO Demo Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sebj.CSGO-Demo-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96F152BC1C314AF50017FEA7 /* Build configuration list for PBXProject "CSGO Demo Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F152D01C314AF50017FEA7 /* Debug */,
+				96F152D11C314AF50017FEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F152D21C314AF50017FEA7 /* Build configuration list for PBXNativeTarget "CSGO Demo Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F152D31C314AF50017FEA7 /* Debug */,
+				96F152D41C314AF50017FEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96F152B91C314AF50017FEA7 /* Project object */;
+}

@@ -1,9 +1,9 @@
-[submodule "CS:GO Demo Manager/SJSourceDemo"]
-	path = CS:GO Demo Manager/SJSourceDemo
+[submodule "CSGO Demo Manager/SJSourceDemo"]
+	path = CSGO Demo Manager/SJSourceDemo
 	url = https://github.com/sebj/SJSourceDemo.git
-[submodule "CS:GO Demo Manager/WAYTheDarkSide"]
-	path = CS:GO Demo Manager/WAYTheDarkSide
+[submodule "CSGO Demo Manager/WAYTheDarkSide"]
+	path = CSGO Demo Manager/WAYTheDarkSide
 	url = https://github.com/weAreYeah/WAYTheDarkSide.git
-[submodule "CS:GO Demo Manager/ZipArchive"]
-	path = CS:GO Demo Manager/ZipArchive
+[submodule "CSGO Demo Manager/ZipArchive"]
+	path = CSGO Demo Manager/ZipArchive
 	url = https://github.com/ZipArchive/ZipArchive.git
